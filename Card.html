@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Card</title>
-<style>
-    .item {
-        border: solid;
-        border-width: 2px;
-        border-color: lightgray;
-        max-width: 300px;
-        font-family: cursive;
-        font-size: small;
-    }
-    .object {
-        border: solid;
-        border-width: 2px;
-        border-color: lightgray;
-        max-width: 300px;
-        font-family: cursive;
-        font-size: medium;
-    }
-    
-</style>
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Card</title>
+    <style>
+        .item {
+            border: solid;
+            border-width: 2px;
+            border-color: lightgray;
+            max-width: 300px;
+            font-family: cursive;
+            font-size: small;
+        }
+
+        .object {
+            border: solid;
+            border-width: 2px;
+            border-color: lightgray;
+            max-width: 300px;
+            font-family: cursive;
+            font-size: medium;
+        }
+
+        .item>img {
+            max-width: 100%;
+        }
+
+        .container {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
         <div class="item">
-            <img src="Nettuno.jpeg" width="300px" alt="Una foto rappresentante il centro della città Nettuno" />
+            <img src="Nettuno.jpeg" width="100%" alt=" Una foto rappresentante il centro della città Nettuno" />
             <h1>Esplora Nettuno!</h1>
-            <p>Sei alla ricerca di un posto dove passare un weekend vicino al mare in una località non troppo costosa e vicina a Roma? Vieni a trovarci a Nettuno! Con un borgo suggestivo, castello medievale e tant'altro!
+            <p>Sei alla ricerca di un posto dove passare un weekend vicino al mare in una località non troppo costosa e
+                vicina a Roma? Vieni a trovarci a Nettuno! Con un borgo suggestivo, castello medievale e tant'altro!
             </p>
         </div>
         <div class="object">
@@ -44,9 +55,13 @@
         </div>
         <div class="item">
             <p>Link utili:</p>
-        <span><a href="https://www.paesionline.it/italia/cosa-vedere-nettuno">Cosa vedere</a></span>
-        <span><a href="https://www.thefork.it/ristoranti/nettuno-c379506"> Dove mangiare</a></span>
-        <span><a href="https://www.booking.com/accommodation/city/it/nettuno.it.html?aid=318615;label=New_Italian_IT_IT_21439067065-4KmDdPqe*ivFEb5u*8ZI0gS84629793865:pl:ta:p1:p2:ac:ap:neg;ws=&gclid=CjwKCAjwrqqSBhBbEiwAlQeqGl8a51iQYuXU4aREZIDRnZacvHIx0TuREBTwFRrmcOf0voRdGAU93xoCdZgQAvD_BwE">Dove dormire</a></span>
+            <span><a href="https://www.paesionline.it/italia/cosa-vedere-nettuno">Cosa vedere</a></span>
+            <span><a href="https://www.thefork.it/ristoranti/nettuno-c379506"> Dove mangiare</a></span>
+            <span><a
+                    href="https://www.booking.com/accommodation/city/it/nettuno.it.html?aid=318615;label=New_Italian_IT_IT_21439067065-4KmDdPqe*ivFEb5u*8ZI0gS84629793865:pl:ta:p1:p2:ac:ap:neg;ws=&gclid=CjwKCAjwrqqSBhBbEiwAlQeqGl8a51iQYuXU4aREZIDRnZacvHIx0TuREBTwFRrmcOf0voRdGAU93xoCdZgQAvD_BwE">Dove
+                    dormire</a></span>
+        </div>
     </div>
-    </body>
+</body>
+
 </html>
